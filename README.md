@@ -1,3 +1,19 @@
+# Proyecto 1, Bootcamp de Laboratoria
+
+Mi primer proyecto para el bootcamp de laboratoria se llama **Card Validator for Piece of Cake** y consiste en un validador de tarjeta de crédito para las franquicias Visa y Mastercard, utlizando el algoritmo de Luhn para realizar la validación.
+
+## Definición del producto
+
+Piece of Cake es un e-commerce que se especializa en hacer y vender pasteles personalizados para ocasiones especiales y agregó recientemente a sus métodos de pago la tarjeta de crédito.
+
+Piece of cake quiere ofrecer a los usuarios de su sitio web que tengan tarjeta de crédito Visa o Mastercard y quieran comprar usando este método de pago la oportunidad de validar si su tarjeta es apta para comprar en el sitio web antes de que pasen por todo el proceso de compra y de no ser válida dar a conocer los otros medios de pago disponibles que pueden usar para poder comprar sus pasteles. 
+
+Es por esto que solicita agregar a su sitio web una página en la que el usuario pueda ingresar el número de su tarjeta de crédito y verifique si es válida o no y por cuestiones de privacidad, que oculte todos los números de la tarjeta excepto los últimos 4 dígitos.
+
+___
+
+# Instrucciones de desarrollo dadas por Laboratoria
+
 # Tarjeta de crédito válida
 
 ## Índice
