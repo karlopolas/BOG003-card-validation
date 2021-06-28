@@ -10,6 +10,24 @@ Piece of cake quiere ofrecer a los usuarios de su sitio web que tengan tarjeta d
 
 Es por esto que solicita agregar a su sitio web una página en la que el usuario pueda ingresar el número de su tarjeta de crédito y verifique si es válida o no y por cuestiones de privacidad, que oculte todos los números de la tarjeta excepto los últimos 4 dígitos.
 
+## Imagen final del proyecto
+
+## Sketch de la aplicación
+
+La siguiente imagen es la primera pantalla del prototipo hecho a mano. Los sketches de las otras pantallas están en la carpeta llamada prototypes. 
+
+![Pantalla 1 Card Validator](images/prototypes/CV-screen1.jpg)
+
+## Feedback del prototipo 
+
+Me reuní con un grupo de compañeras para dar y recibir feedback de nuestros diseños. A continuación presento los cambios que realicé al sketch de mi validador:
+
+- Agregué un link para la página del validador a la barra de navegación en el header.
+- Cambié el texto al inicio de la página para hacer más clara la función del validador.
+- Quité el texto "Nombre Apellido" de la imagen de la tarjeta.
+- Agregué un texto en la parte de abajo de la página que explica que los datos de la tarjeta no son almacenados en la página y que la tarjeta se valida con el algoritmo de Luhn. 
+- Agregué que se muestre el logo de la franquicia correspondiente en la imagen de la tarjeta.
+- Agregué un botón de "ir a productos" si la tarjeta es válida.
 ___
 
 # Instrucciones de desarrollo dadas por Laboratoria
