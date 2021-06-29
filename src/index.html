@@ -1,14 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.ico" type="image/png">
+  <title>Validador tarjeta de crédito</title>
+</head>
+<body>
+  <header>
+    <img src="images/logo y nombre.png" alt="Piece of Cake" class="logo">
+    <nav>
+      <ul>
+        <li>Productos</li>
+        <li>Validador</li>
+        <li>Contacto</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-description">
+      <h1>Validador de Tarjeta de Crédito</h1>
+      <p>Puedes validar tus tarjetas Visa y Mastercard antes de realizar el proceso de compra.</p>
+    </section>
+    
+    <section class="card-validation">
+      <div class="card">
+        <div class="card-images">
+          <img src="images/chip.png" alt="Chip" class="chip">
+          <img src="images/mastercard.png" alt="Mastercard" class="franchise">
+          <img src="images/visa.png" alt="Visa" class="franchise">
+        </div>
+        <p>Número de tarjeta</p>
+        <p>XXXX XXXX XXXX XXXX</p>
+      </div>
+      <div class="validation">
+        <input type="number" name="card-number" placeholder="Ingresa el número de tu tarjeta">
+        <button type="button" class="validation-btn">Validar</button>
+      </div>
+    </section>
+
+    <section class="additional-info">
+      <p>Tus datos NO son almacenados en nuestra página.</p>
+      <p>La validación se realiza con el algoritmo de Luhn.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>pieceofcake@gmail.com</p>
+    <div class="social">
+      <p>Síguenos:</p>
+      <img src="images/facebook.png" alt="Facebook" class="social-logo">
+      <img src="images/instagram.png" alt="Instagram" class="social-logo">
+      <img src="images/twitter.png" alt="Twitter" class="social-logo">
+    </div>
+    <p>Made by KP</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
 </html>
+
+
