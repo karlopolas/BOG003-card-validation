@@ -16,7 +16,7 @@ Es por esto que solicita agregar a su sitio web una página en la que el usuario
 
 La siguiente imagen es la primera pantalla del prototipo hecho a mano. Los sketches de las otras pantallas están en la carpeta llamada prototypes. 
 
-![Pantalla 1 Card Validator](images/prototypes/CV-screen1.jpg)
+![Pantalla 1 Card Validator](src/images/prototypes/CV-screen1.jpg)
 
 ## Feedback del prototipo 
 
