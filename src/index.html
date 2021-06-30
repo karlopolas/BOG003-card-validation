@@ -8,9 +8,11 @@
   <link rel="stylesheet" href="style.css">
   <title>Validador tarjeta de crédito</title>
 </head>
-<body>
+<body class="flex flex-dir-col flex-jc-sb">
   <header class="flex flex-jc-sb flex-ai-c">
-    <img src="images/logo y nombre.png" alt="Piece of Cake" class="logo">
+    <a href="index.html">
+      <img src="images/logo y nombre.png" alt="Piece of Cake" class="logo">
+    </a>
     <nav>
       <a href="#">Productos</a>
       <a href="index.html">Validador</a>
@@ -18,25 +20,29 @@
     </nav>
   </header>
 
-  <main>
+  <main class="flex flex-dir-col flex-ai-c flex-grow">
     <section class="page-description">
       <h1>Validador de Tarjeta de Crédito</h1>
       <p>Puedes validar tus tarjetas Visa y Mastercard antes de realizar el proceso de compra.</p>
     </section>
     
-    <section class="card-validation">
-      <div class="card">
-        <div class="card-images">
+    <section class="card-validation flex flex-dir-col flex-ai-c">
+      <div class="card flex flex-dir-col flex-jc-sb">
+        <div class="card-images flex flex-jc-sb">
           <img src="images/chip.png" alt="Chip" class="chip">
-          <img src="images/mastercard.png" alt="Mastercard" class="franchise">
-          <img src="images/visa.png" alt="Visa" class="franchise">
+          <img src="images/mastercard.png" alt="Mastercard" class="franchise hide show" id="mastercard">
+          <img src="images/visa.png" alt="Visa" class="franchise hide" id="visa">
         </div>
-        <p>Número de tarjeta</p>
-        <p>XXXX XXXX XXXX XXXX</p>
+        <div class="card-info">
+          <p>Número de tarjeta</p>
+          <p id="card-number">#### #### #### ####</p>
+        </div>
+        
       </div>
-      <div class="validation">
-        <input type="number" name="card-number" placeholder="Ingresa el número de tu tarjeta">
-        <button type="button" class="validation-btn">Validar</button>
+      <div class="validation flex flex-jc-c flex-ai-c">
+        <input type="number" name="card-number" id="user-input" placeholder="Ingresa el número de tu tarjeta">
+        <button type="button" id="validate-btn"
+         class="validation-btn">Validar</button>
       </div>
     </section>
 
@@ -46,15 +52,15 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="flex flex-jc-sb flex-ai-c">
     <p>pieceofcake@gmail.com</p>
-    <div class="social">
+    <div class="social flex flex-ai-c">
       <p>Síguenos:</p>
-      <img src="images/facebook.png" alt="Facebook" class="social-logo">
-      <img src="images/instagram.png" alt="Instagram" class="social-logo">
-      <img src="images/twitter.png" alt="Twitter" class="social-logo">
+      <a href="#"><img src="images/facebook.png" alt="Facebook" class="social-logo"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram" class="social-logo"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter" class="social-logo"></a>
     </div>
-    <p>Made by KP</p>
+    <p class="flex-as-fe">Made by KP</p>
   </footer>
   <script src="index.js" type="module"></script>
 </body>
