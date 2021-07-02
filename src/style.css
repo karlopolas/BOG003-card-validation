@@ -25,10 +25,6 @@ p {
   margin: 0;
 }
 
-button {
-  cursor: pointer;
-}
-
 .hide.show {
   display: block;
 }
@@ -97,6 +93,8 @@ nav a:not(:last-child) {
 }
 
 /* Main */ 
+
+/* Page description */
 h1 {
   text-align: center;
   color: var(--main-text-color);
@@ -112,6 +110,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
+/* Credit card */
 .card {
   background-color: var(--card-color);
   border-radius: 20px;
@@ -142,6 +141,7 @@ h1 {
   font-size: 1.5rem;
 }
 
+/* Card Validation */
 #user-input {
   width: 20.5625rem;
   height: 2.6875rem;
@@ -165,12 +165,86 @@ h1 {
   color: #FFD270;
   font-size: 1.625rem;
   font-weight: 700;
+  cursor: pointer;
 }
 
-.additional-info {
+#validate-btn:hover {
+  background-color: #FFD270;
+  border: 3px solid var(--main-text-color);
   color: var(--main-text-color);
 }
 
+.validation {
+  margin-bottom: 2rem;
+}
+
+.validation-message {
+  text-align: center;
+}
+
+/* Valid card */
+.valid-message{
+  display: inline-block;
+  font-size: 1.625rem;
+  color: #FFD561;
+  background-color: var(--secondary-text-color);
+  border-radius: 3px;
+  padding: 0.7rem 3.5rem;
+  margin-bottom: 1rem;
+}
+
+#valid-card a{
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--secondary-text-color);
+  background-color: var(--main-bcg-color);
+  border: 3px solid #F58686;
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+}
+
+
+/* Invalid card */
+.invalid-message{
+  display: inline-block;
+  font-size: 1.625rem;
+  color: #FFD561;
+  background-color: #AA2424;
+  border-radius: 3px;
+  padding: 0.7rem 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.payment-method p {
+  color: var(--main-text-color);
+  font-size: 1.125rem;
+  margin-right: 0.5rem;
+}
+
+.pse {
+  width: 30px;
+  height: 30px;
+  line-height: 0%;
+}
+
+.baloto, .efecty {
+  width: 80px;
+  height: 30px;
+}
+
+.payment-logos{
+  line-height: 0;
+}
+
+/* Additional information */
+.additional-info {
+  color: var(--main-text-color);
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
 footer {
   background-color: var(--main-bcg-color);
   padding: 0 11.375rem;
@@ -185,5 +259,10 @@ footer {
   width: 1.5625rem; 
   height: 1.5625rem;
   border-radius: 5px;
+}
+
+.social-link {
   margin-left: 1.5625rem;
 }
+
+
