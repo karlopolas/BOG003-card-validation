@@ -20,12 +20,19 @@ const validator = {
     
     return result % 10 == 0;
     
-  }
+  },
     
-  
-  /*function maskify() {
+  maskify: function(numberInCard) {
+    if (numberInCard.length < 5){
+      return numberInCard;
+    }
 
-  } */
+    const reversedCardNumberArray = numberInCard.split('').reverse();
+    for (let i = 4; i < reversedCardNumberArray.length; i++){
+      reversedCardNumberArray[i] = '#';
+    }
+    return reversedCardNumberArray.reverse().join('');
+  }
 };
 
 export default validator;
