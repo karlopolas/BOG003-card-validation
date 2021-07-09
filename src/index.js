@@ -11,9 +11,11 @@ const invalidCardMessage = document.getElementById("invalid-card");
 
 userInput.addEventListener('keyup', displayCardNumber);
 btnValidate.addEventListener('click', function(){
+  const coveredNumbers = validator.maskify(numberPlaceholder.innerText);
   const cardIsValid = validator.isValid(userInput.value);
 
   if (cardIsValid){
+    numberPlaceholder.innerText = coveredNumbers;
     showValidCardMessage()
     userInput.value = '';
   }else{
@@ -21,6 +23,10 @@ btnValidate.addEventListener('click', function(){
   }
 });
 
+function displayCardNumber(event) {
+  const cardNumber = event.target.value;
+  numberPlaceholder.innerText = cardNumber;
+}
 
 function showValidCardMessage(){
   invalidCardMessage.classList.remove('show');
@@ -32,10 +38,10 @@ function showinValidCardMessage(){
   invalidCardMessage.classList.add('show');
 }
 
-function displayCardNumber(event) {
-  const cardNumber = event.target.value;
-  numberPlaceholder.innerText = cardNumber;
-}
+
+
+ 
+
 
 
 
