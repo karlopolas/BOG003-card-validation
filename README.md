@@ -12,6 +12,8 @@ Es por esto que solicita agregar a su sitio web una página en la que el usuario
 
 ## Imagen final del proyecto
 
+![Screenshot of final product](src/images/prototypes/final-product.png)
+
 ## Sketch de la aplicación
 
 La siguiente imagen es la primera pantalla del prototipo hecho a mano. Los sketches de las otras pantallas están en la carpeta llamada prototypes. 
@@ -28,6 +30,11 @@ Me reuní con un grupo de compañeras para dar y recibir feedback de nuestros di
 - Agregué un texto en la parte de abajo de la página que explica que los datos de la tarjeta no son almacenados en la página y que la tarjeta se valida con el algoritmo de Luhn. 
 - Agregué que se muestre el logo de la franquicia correspondiente en la imagen de la tarjeta.
 - Agregué un botón de "ir a productos" si la tarjeta es válida.
+
+## Imagen del prototipo final en Figma
+
+![Design in Figma](src/images/prototypes/figma-prototype.png)
+
 ___
 
 # Instrucciones de desarrollo dadas por Laboratoria
