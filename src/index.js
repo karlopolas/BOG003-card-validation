@@ -1,7 +1,5 @@
 import validator from "./validator.js";
 
-console.log(validator);
-
 const userInput = document.getElementById("user-input");
 const numberPlaceholder = document.getElementById("card-number");
 const inputRequired = document.getElementById('input-required')
