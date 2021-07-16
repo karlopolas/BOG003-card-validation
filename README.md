@@ -28,7 +28,6 @@ Me reuní con un grupo de compañeras para dar y recibir feedback de nuestros di
 - Cambié el texto al inicio de la página para hacer más clara la función del validador.
 - Quité el texto "Nombre Apellido" de la imagen de la tarjeta.
 - Agregué un texto en la parte de abajo de la página que explica que los datos de la tarjeta no son almacenados en la página y que la tarjeta se valida con el algoritmo de Luhn. 
-- Agregué que se muestre el logo de la franquicia correspondiente en la imagen de la tarjeta.
 - Agregué un botón de "ir a productos" si la tarjeta es válida.
 
 ## Imagen del prototipo final en Figma
