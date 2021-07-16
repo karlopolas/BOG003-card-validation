@@ -3,23 +3,20 @@ const validator = {
   isValid: function(userInput) { 
     const userInputArray = userInput.split('');
     const reversedUserInputArray = userInputArray.reverse().map(n => Number(n)); 
-
+    let result = 0;
     for (let i = 0; i < reversedUserInputArray.length; i++){
-      if (i % 2 !== 0) {
+      if (i % 2 == 0) {
+        result += reversedUserInputArray[i];
+      } else { 
         reversedUserInputArray[i] *= 2; 
         if (reversedUserInputArray[i] >= 10){
           reversedUserInputArray[i] -= 9;
         }
+        result += reversedUserInputArray[i];
       }
     }
 
-    let result = 0;
-    for (let i = 0; i < reversedUserInputArray.length; i++){
-      result += reversedUserInputArray[i]; 
-    }
-    
-    return result % 10 == 0;
-    
+    return result % 10 == 0;    
   },
     
   maskify: function(numberInCard) {
