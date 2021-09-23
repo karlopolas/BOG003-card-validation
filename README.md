@@ -1,5 +1,9 @@
 # Proyecto 1, Bootcamp de Laboratoria
 
+![Logo de piece of cake](src/images/logo.png)
+
+Este es el link del [proyecto](https://karlopolas.github.io/BOG003-card-validation/src/index.html) 
+
 Mi primer proyecto para el bootcamp de laboratoria se llama **Card Validator for Piece of Cake** y consiste en un validador de tarjeta de crédito para las franquicias Visa y Mastercard, utlizando el algoritmo de Luhn para realizar la validación.
 
 ## Definición del producto
