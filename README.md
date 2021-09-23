@@ -1,6 +1,6 @@
 # Proyecto 1, Bootcamp de Laboratoria
 
-![Logo de piece of cake](src/images/logo.png)
+![Logo de piece of cake](src/images/logo y nombre.png)
 
 Este es el link del [proyecto](https://karlopolas.github.io/BOG003-card-validation/src/index.html) 
 
